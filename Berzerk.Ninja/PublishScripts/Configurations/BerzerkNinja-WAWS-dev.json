@@ -1,0 +1,20 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "BerzerkNinja2",
+            "location": "Australia East"
+        },
+        "databases": [
+            {
+                "connectionStringName": "",
+                "databaseName": "",
+                "serverName": "",
+                "user": "",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": ""
+            }
+        ]
+    }
+}
