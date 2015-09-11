@@ -31,13 +31,13 @@
         <h1>Email the <a href="mailto:greg@berzerk.ninja?Subject=Hello%20Greg, ">Berzerk Ninja</a></h1>
         <nav id="nav">
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
                 <li>
-                    <a href="" class="icon fa-angle-down">Layouts</a>
+                    <a href="" class="icon fa-angle-down">Techo demo's</a>
                     <ul>
-                        <li><a href="generic.html">Generic</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="elements.html">Elements</a></li>
+                        <li><a href="@Url.Action("Index", "AngularJsTechDemo")">AngularJS</a></li>
+                        <li><a href="@Url.Action("Index", "AngularJs2TechDemo")">AngularJS 2</a></li>
+                        @*<li><a href="elements.html">Elements</a></li>
                         <li>
                             <a href="">Submenu</a>
                             <ul>
@@ -46,10 +46,10 @@
                                 <li><a href="#">Option Three</a></li>
                                 <li><a href="#">Option Four</a></li>
                             </ul>
-                        </li>
+                        </li>*@
                     </ul>
                 </li>
-                <li><a href="#" class="button">Sign Up</a></li>
+                @*<li><a href="#" class="button">Sign Up</a></li>*@
             </ul>
         </nav>
     </header>
@@ -76,21 +76,6 @@
     <!-- Main -->
     <section id="main" class="container">
 
-        <section class="box special">
-            <header class="major">
-                <h2>
-                    Introducing the berzerk ninja,
-                    <br/>
-                    cutting deep into the web and mobile tech.
-                </h2>
-                <p>
-                    I'm a web developer who has has his odd adventure doing mobile<br/>
-                    applicaitons. Hear me blog!
-                </p>
-            </header>
-            <span class="image featured"><img src="/images/pic01.jpg" alt=""></span>
-        </section>
-
         @RenderBody()
 
     </section>
@@ -98,20 +83,9 @@
     <!-- CTA -->
     <section id="cta">
 
-        <h2>Sign up for beta access</h2>
-        <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
-
-        <form>
-            <div class="row uniform half collapse-at-2">
-                <div class="8u">
-                    <input type="email" name="email" id="email" placeholder="Email Address" />
-                </div>
-                <div class="4u">
-                    <input type="submit" value="Sign Up" class="fit" />
-                </div>
-            </div>
-        </form>
-
+        <h2>Need a web, mobile and windows application?</h2>
+        <p>Call me on +64 21 025 24456 or send me an email at greg@berzerk.ninja</p>
+       
     </section>
 
     <!-- Footer -->
@@ -121,6 +95,7 @@
             <li><a href="https://www.facebook.com/GregNukemRandall" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a href="https://github.com/BerzerkNinja/berzerk.ninja" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
             <li><a href="https://plus.google.com/+GregRandallnz/posts" target="_blank" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+            <li><a href="https://nz.linkedin.com/pub/greg-randall/28/753/a72" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; Kahplah Ltd. All rights reserved.</li>

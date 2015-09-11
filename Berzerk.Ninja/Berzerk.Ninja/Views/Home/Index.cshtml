@@ -5,13 +5,28 @@
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
+<section class="box special">
+    <header class="major">
+        <h2>
+            Introducing the berzerk ninja,
+            <br/>
+            cutting deep into the web and mobile tech.
+        </h2>
+        <p>
+            I'm a web developer who has has his odd adventure doing mobile<br/>
+            applicaitons. Hear me blog!
+        </p>
+    </header>
+    <span class="image featured"><img src="/images/pic01.jpg" alt=""></span>
+</section>
+
 <section class="box special features">
     <div class="features-row">
         <section>
             <span class="icon major fa-bolt accent2"></span>
             <h3>ASB Mobile Banking</h3>
             <p>
-                I was lucky enough to get in at the ground floor of this greenfields Android app. I had help from a small but excellent team, and in my opinion we created an excellent application! Alot of hear went into this one.
+                I was lucky enough to get in at the ground floor of this greenfields Android app. I had help from a small but excellent team, and in my opinion we created an excellent application! Alot of heart went into this one.
                 Although it doesn't have as many users as some websites I have built, it has a special place in my heart. Check it out here <a href="https://play.google.com/store/apps/details?id=nz.co.asb.asbmobile" target="_blank">ASB Mobile Banking</a>
             </p>
         </section>
@@ -35,9 +50,7 @@
             <span class="icon major fa-lock accent5"></span>
             <h3>Ignition Development</h3>
             <p>
-                Ignition development is my current employer. We have a shiny new website you should definately <a href="http://www.ignitiondevelopment.co.nz/" target="_blank">go check out!</a> I'm involved in a few projects there, but my main bragging points
-                are working with with our Norwegian friends at Netthandelen. Checkout <a href="https://www.blivakker.no/" target="blank">Blivakker</a>, <a href="https://www.cocopanda.dk/" target="blank">Cocopanda</a>,
-                <a href="https://www.cocopanda.se/" target="blank">Cocopanda Se</a>, <a href="https://www.drlykke.no/" target="blank">DrLykke</a> and <a href="http://netthandelen.no/" target="blank">Netthandelen</a>.
+                Ignition development is the best development studio in NZ! We have a shiny new website you should definately <a href="http://www.ignitiondevelopment.co.nz/" target="_blank">go check out!</a>
             </p>
         </section>
     </div>
@@ -64,10 +77,10 @@
 
         <section class="box special">
             <span class="image featured"><img src="/images/pic03.jpg" alt="" /></span>
-            <h3>ShopX</h3>
-            <iframe src="https://www.youtube.com/embed/deaZCS2Bjs0" frameborder="0" allowfullscreen></iframe>
+            <h3>Tech Demo's</h3>
+            <p>The reason I create this site in the first place. A place to put my explorations in technology!</p>
             <ul class="actions">
-                <li><a href="http://ieretail.co.nz" target="_blank" class="button alt">Learn More</a></li>
+                <li><a href="@Url.Action("TechDemos", "Home")" class="button alt">Learn More</a></li>
             </ul>
         </section>
 
