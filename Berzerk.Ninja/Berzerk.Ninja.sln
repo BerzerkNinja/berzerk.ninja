@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berzerk.Ninja", "Berzerk.Ninja\Berzerk.Ninja.csproj", "{00D1962D-BEAB-4F28-B5A8-245016A9CEF9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berzerk.Ninja.Tests", "Berzerk.Ninja.Tests\Berzerk.Ninja.Tests.csproj", "{C69D5B17-C4B7-405A-9924-00A507A97254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{00D1962D-BEAB-4F28-B5A8-245016A9CEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00D1962D-BEAB-4F28-B5A8-245016A9CEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00D1962D-BEAB-4F28-B5A8-245016A9CEF9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C69D5B17-C4B7-405A-9924-00A507A97254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C69D5B17-C4B7-405A-9924-00A507A97254}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C69D5B17-C4B7-405A-9924-00A507A97254}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C69D5B17-C4B7-405A-9924-00A507A97254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
